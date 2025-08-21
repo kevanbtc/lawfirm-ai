@@ -1,6 +1,15 @@
+openai==1.100.2
+tiktoken==0.11.0
+
+# LangChain family (all pinned to same release line)
+langchain==0.3.7
+langchain-core==0.3.31
+langchain-openai==0.3.2
+langsmith==0.1.137
+langchain-text-splitters==0.3.1
+
+# PDF + Web
+pypdf==4.2.0
 fastapi==0.110.0
 uvicorn==0.27.1
 requests==2.32.3
-langchain==0.2.14
-openai==1.42.0
-pypdf==4.2.0
